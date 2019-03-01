@@ -1,0 +1,12 @@
+.pied-page {
+  padding: 3rem 0;
+  background: $gris-fonce;
+  text-align: center;
+  color: $blanc;
+
+  .temoignage {
+    display: inline-block;
+    width: 35%;
+    margin: 1rem 2rem;
+  }
+}

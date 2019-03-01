@@ -1,0 +1,9 @@
+{
+  "logLevel": "silent",
+  "port": 8080,
+  "files": ["./dist/**/*"],
+  "server": {
+    "baseDir": "./dist"
+  },
+  "notify": false
+}

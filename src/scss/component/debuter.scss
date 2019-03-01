@@ -1,0 +1,19 @@
+.achat {
+  padding: 3rem 0;
+  text-align: center;
+
+  .bouton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: $bleu;
+    border-radius: 5px;
+    text-decoration: none;
+    color: $blanc;
+    transition: all 250ms;
+
+    &:hover {
+      background: $bleu-fonce;
+      box-shadow: 0 0 15px rgba($noir, 0.1);
+    }
+  }
+}

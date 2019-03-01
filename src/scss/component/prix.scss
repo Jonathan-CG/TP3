@@ -1,0 +1,45 @@
+.prix {
+  padding: 3rem 0;
+  background: $gris;
+
+  .forfaits {
+    display: flex;
+    align-items: baseline;
+
+    .forfait {
+      width: 50%;
+      padding: 0.5rem 0;
+      background: $blanc;
+      box-shadow: 0 0 15px rgba($noir, 0.1);
+      text-align: center;
+
+      &:nth-of-type(1) {
+        border-radius: 5px 0 0 5px;
+      }
+
+      &:nth-of-type(2) {
+        padding: 2rem 0;
+        z-index: 5;
+        border-radius: 5px;
+      }
+
+      &:nth-of-type(3) {
+        border-radius: 0 5px 5px 0;
+      }
+
+      p {
+        padding: 0;
+        margin: 0.5rem 0;
+      }
+
+      .nom {
+        font-size: 1.25rem;
+      }
+
+      .montant {
+        font-size: 2rem;
+        color: $bleu;
+      }
+    }
+  }
+}

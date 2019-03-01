@@ -1,0 +1,17 @@
+.en-tete {
+  height: 15rem;
+  padding: 3rem 0 0 0;
+  background: $bleu;
+  background-image: linear-gradient(to bottom right, $bleu 45%, $bleu-fonce);
+  color: $blanc;
+
+  .logo {
+    float: left;
+    height: 15rem;
+    margin: 0 3rem 0 0;
+  }
+
+  .titre {
+    text-align: left;
+  }
+}
